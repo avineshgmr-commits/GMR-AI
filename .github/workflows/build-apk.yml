@@ -35,7 +35,7 @@ jobs:
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
 
       - name: Extract Source
-        run: unzip -q GMR-AI-Android-Source.zip -d source
+        run: unzip -q GMR-AI-Android-Source-Kotlin-Fix.zip -d source
 
       - name: Build APK
         run: |
